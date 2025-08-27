@@ -25,6 +25,7 @@ Cuando dos mosaicos con el mismo valor colisionan, se combinan en un solo mosaic
 * El tablero es una cuadrícula de `4 x 4`, en el futuro podría modificarse para que tenga dimensiones configurables `n x n`.
 * Se inicializa con dos mosaicos de valor `2` o `4` colocados en posiciones aleatorias.
 * Cada turno aparece un nuevo mosaico (`2` o `4`) en una posición vacía.
+* La probabilidad de que un mosaico sea `2` o `4` debería fácilmente modificable en el código. Inicialmente se puede establecer como 60% para el `2` y 40% para el `4`. 
 * El jugador puede mover todos los mosaicos en cuatro direcciones: arriba, abajo, izquierda, derecha. 
 * Mosaicos con el mismo valor que colisionan se combinan para producir un mosaico cuyo valor es la suma de los dos mosaicos originales.
 * Cada vez que hay una colisión el puntaje del jugador incrementa en el valor de la suma de los mosaicos.
